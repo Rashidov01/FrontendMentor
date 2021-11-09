@@ -1,18 +1,17 @@
 .roadmap {
-  width: 255px;
   background-color: #fff;
   border-radius: 10px;
   padding: 20px 24px;
 }
 
-.roadmap-heading {
+.roadmap__heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 24px;
 }
 
-.roadmap-heading__title {
+.roadmap__title {
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
@@ -20,8 +19,7 @@
   color: #3A4374;
 }
 
-.roadmap-heading__link {
-  font-style: normal;
+.roadmap__link {
   font-weight: 600;
   font-size: 13px;
   line-height: 19px;
@@ -29,7 +27,7 @@
   color: #4661E6;
 }
 
-.roadmap-list {
+.roadmap__list {
   list-style: none;
 }
 
@@ -57,8 +55,6 @@
 }
 
 .roadmap-list__name {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 23px;
   color: #647196;
@@ -70,6 +66,5 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 23px;
-  text-align: right;
   color: #647196;
 }

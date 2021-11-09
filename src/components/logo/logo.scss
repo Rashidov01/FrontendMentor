@@ -1,17 +1,11 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-
-.logo--holder {
-  display: inline-block;
-  padding: 62px 77px 24px 24px;
+.logo {
+  padding: 62px 24px 24px;
   background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
   border-radius: 10px;
   margin-bottom: 24px;
 }
 
-.logo-holder__title {
+.logo__title {
   font-weight: bold;
   font-size: 20px;
   line-height: 29px;
@@ -20,7 +14,7 @@
   margin-bottom: 8px;
 }
 
-.logo-holder__addition {
+.logo__text {
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;

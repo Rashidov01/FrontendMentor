@@ -3,12 +3,12 @@ import "./roadmap.scss"
 function RoadMap(){
   return(
     <div className="roadmap">
-      <div className="roadmap-heading">
-        <h3 className="roadmap-heading__title">Roadmap</h3>
-        <a className="roadmap-heading__link" href="#">View</a>
+      <div className="roadmap__heading">
+        <h3 className="roadmap__title">Roadmap</h3>
+        <a className="roadmap__link" href="#">View</a>
       </div>
 
-      <ul className="roadmap-list">
+      <ul className="roadmap__list">
         <li className="roadmap-list__item">
           <p className="roadmap-list__name">Planned</p>
           <span className="roadmap-list__num">2</span>
