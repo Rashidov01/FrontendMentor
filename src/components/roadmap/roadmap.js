@@ -4,7 +4,7 @@ function RoadMap(){
   return(
     <div className="roadmap">
       <div className="roadmap__heading">
-        <h3 className="roadmap__title">Roadmap</h3>
+        <span className="roadmap__title">Roadmap</span>
         <a className="roadmap__link" href="#">View</a>
       </div>
 
