@@ -39,3 +39,11 @@
     background-color: #4661E6;
     color: #fff;
 }
+
+@media only screen and (max-width: 980px){
+  .filter{
+    margin-bottom: 0;
+    margin-right: 10px;
+    width: 33.3%;
+  }
+}

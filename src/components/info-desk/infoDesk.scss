@@ -2,3 +2,14 @@
   margin-right: 30px;
   max-width: 23%;
 }
+
+@media only screen and (max-width: 980px){
+  .info-desk{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-right: 0;
+    flex-grow: 1;
+  }
+}

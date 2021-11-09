@@ -21,3 +21,11 @@
   color: #FFFFFF;
   opacity: 0.75;
 }
+
+@media only screen and (max-width: 980px){
+  .logo{
+    margin-bottom: 0;
+    margin-right: 10px;
+    width: 33.3%;
+  }
+}
