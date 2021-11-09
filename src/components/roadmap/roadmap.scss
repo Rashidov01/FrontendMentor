@@ -28,12 +28,13 @@
 }
 
 .roadmap__list {
-  list-style: none;
+  list-style-type: none;
 }
 
 .roadmap-list__item {
   display: flex;
   align-items: center;
+  margin-bottom: 8px;
 
   &::before {
     content: '';
@@ -42,7 +43,6 @@
     background-color: #F49F85;
     border-radius: 50%;
     margin-right: 16px;
-    margin-bottom: 8px;
   }
 
   &:nth-child(2)::before {
@@ -58,7 +58,6 @@
   font-size: 16px;
   line-height: 23px;
   color: #647196;
-  margin-bottom: 8px;
 }
 
 .roadmap-list__num {

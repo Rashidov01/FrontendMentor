@@ -1,24 +1,25 @@
+import Button from "../button/button";
 import "./header.scss"
 
 function Header(){
   return(
-    <div className="header">
-      <div className="header-left">
-        <a href="#">
-          logo
-        </a>
+    <header className="header">
+      <div className="header__wrapper">
+        <h3 className="header__title">6 Suggestions</h3>
 
-        <select name="" >
-          <option value="all">all</option>
-          <option value="done">done</option>
-          <option value="opt">opt</option>
-        </select>
+        <form action="https://echo.htmlacademy.ru">
+          <select className="header__select" name="sort" aria-label="rort">
+            <option className="header__option" value="most upvotes">Most Upvotes</option>
+            <option className="header__option" value="most upvotes">Most Upvotes</option>
+            <option className="header__option" value="most comments">Most Comments</option>
+            <option className="header__option" value="least comments">Least Comments</option>
+          </select>
+        </form>
       </div>
+     
 
-      <div className="header-right">
-        <button className="header-right__btn" type="button">Add Feedback</button>
-      </div>
-    </div>
+      <Button className="btn__add">+ Add Feedback</Button>
+    </header>
   );
 }
 
